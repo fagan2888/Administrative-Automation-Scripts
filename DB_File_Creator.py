@@ -77,10 +77,10 @@ def main():
     # create a database connection
     conn = create_connection(database)
     if conn is not None:
-        # create LESA table
+        # create EMAILS table
         create_table(conn, sql_create_emails_table)
 
-        # import csv to LESA table connection
+        # import csv to EMAILS table connection
         cur = conn.cursor()
         with open('lesa_emails_to_convert.csv', 'r') as fin:
 
