@@ -26,7 +26,7 @@ first_message = messages.GetFirst()
 first_subject = first_message.Subject
 print("Current first email: " + str(first_subject))
 
-with open('lesa_emails.csv', 'a') as csvfile:
+with open('emails_file.csv', 'a') as csvfile:
     names = ['Sent On', 'Sender Name', 'Recipients', 'Subject', 'Body']
     w = csv.DictWriter(csvfile, fieldnames=names, lineterminator='\n')
     w.writeheader()
