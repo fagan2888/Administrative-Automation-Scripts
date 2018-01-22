@@ -1,5 +1,5 @@
 """
-This script will upload the extracted LESA SOA emails csv file into a sql lite database file
+This script will upload the extracted company emails csv file into a sql lite database file
 """
 import csv
 import os
