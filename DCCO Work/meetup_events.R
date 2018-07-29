@@ -3,8 +3,8 @@ library(dplyr)
 
 # About: This script leverages the Meetup API to extract all events from a Meetup and other things
 
-Sys.setenv(MEETUP_KEY = "################")  # This i private :P
-MEETUP_KEY = "##################"  # This i private :P
+Sys.setenv(MEETUP_KEY = "################")  # This is private :P
+MEETUP_KEY = "##################"  # This is private :P
 
 urlname <- "CM-MDC"
 
